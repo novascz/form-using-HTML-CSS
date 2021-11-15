@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario HTML-CSS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <h1 id="title">Suscripción a newsletter "Minimalismo in situ"</h1>
+
+    <p id="description"> Rellenando el siguiente formulario te estarás suscribiendo al newsletter con textos sobre minimalismo dos veces por mes.</p>
+    
+    <form id="survey-form"> 
+      
+      <div class="container">
+        
+      <label id="name-label" for="name"> Nombre completo </label>
+      <input type="text" id="name" name="name" class="item" required placeholder="Escriba su nombre"> <br>
+      
+      <label id="email-label" for="email"> Correo electrónico </label>
+      <input type="email" id="email" name="email" class="item" required placeholder="Escriba su email"> <br>
+      
+      <label id="number-label" for="number"> Teléfono celular </label>
+      <input type="number" id="number" name="number" class="item" required min="10" max="9999999999" placeholder="Escriba su número de celular"> <br>
+      
+      <label for="dropdown" id="dropdown"> Elija si recibir todos los textos a su correo, o solo los últimos que se publiquen.</label> <br>
+     
+        <select id="dropdown" class="item">
+        <option value="default">Seleccione una opción</option>
+        <option value="Todos-los-textos"> Todos los textos </option>
+        <option value="Textos-nuevos"> Textos nuevos </option>
+      </select><br>
+      <br>
+      
+      <label for="terms" id="terminos">Términos de suscripción:</label><br>
+       
+        <label for="terms">Hacer mi suscripción pública</label>
+        <input type="radio" id="terms" name="true" value="publica">
+      <br>
+        
+        <label for="privada" id="terminos">No hacer mi suscripción pública</label>
+        <input type="radio" id="terms" name="true" value="no-publica">
+      <br>
+      <br>
+      
+        <label for="edad" id="edad-suscripcion">Indicanos tu edad:</label><br>
+        <input type="checkbox" id="checkbox" name="edad-usuario" value="menor-de-edad">      
+        <label for="checkbox">De 13 a 17 años</label><br>
+       
+        <input type="checkbox" id="checkbox" name="edad-usuario" value="mayor-de-edad">
+        <label for="checkbox">De 18 a 21 años</label><br>
+        
+        <input type="checkbox" id="checkbox" name="edad-usuario" value="edad-adulta">
+        <label for="checkbox">Más de 22 años</label><br>
+      <br>
+      
+       <textarea id="textarea" name="comentarios" rows="10" cols="40">Dejanos algún comentario sobre el blog</textarea>
+      <br>
+      <br>
+     
+     <input type="submit" id="submit" name="Enviar" class="submit">
+    
+     </div>
+    
+    </form>
+</body>
+</html>

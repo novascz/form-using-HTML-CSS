@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100&family=Nunito:wght@200&family=Oswald:wght@200&family=Sen&display=swap');
+
+
+body {
+  font-family: "Nunito";
+  lines-height: 1.4;
+  background-color: #202124;
+  color: #fff;
+  width: 500px;
+  margin: auto; 
+}
+
+#title {
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  padding: 15px;
+  margin: auto;
+  background-color: rgba(12, 100, 29, 0.3);
+  border: 1px solid rgba(15, 150, 32, 0.5);
+  border-radius: 50px;
+}
+
+#submit {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: rgb(15, 150, 42);
+  border: 2px solid rgb(19, 160, 33);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+.container {
+  margin: 0 auto 0.25rem auto;
+  padding: 0.25rem;
+}
+
+.item {
+  display: block;
+  width: 90%;
+  margin: 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid rgb(19, 160, 33);
+  border-radius: 15px;
+}
+
+textarea {
+  width: 95%;
+  border: 2px solid rgb(19, 160, 33);
+  border-radius: 15px;
+}
